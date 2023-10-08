@@ -1,5 +1,5 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12239628&assignment_repo_type=AssignmentRepo)
-# Título do Projeto
+# Plataforma Web - Acha Pets
 
 `CURSO: Sistemas de Informação`
 
@@ -7,19 +7,32 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto consiste na criação de uma plataforma web
+dedicada à unificação de postagens de animais de estimação
+perdidos. Essa iniciativa visa solucionar o problema de
+dispersão de informações ao oferecer um espaço centralizado
+para proprietários compartilharem detalhes sobre seus pets
+desaparecidos.
+A plataforma é inclusiva e acessível, direcionada a uma
+ampla faixa etária, com foco na formação de uma comunidade de
+apoio comprometida em reunir famílias e seus animais de
+estimação. A missão é proporcionar esperança, assistência e
+eficácia na busca por animais perdidos, preenchendo uma
+importante lacuna no mercado.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* João Pedro Reis Martins
+* Tais Evelin da Silva
+* Alexandre
+* Marcelo
+* Caio
+* Luigi Rodrigo
+* Lucas
 
 ## Orientador
 
-* Nome completo do professor 1
+* Nesley Daher
 
 # Planejamento
 
