@@ -1,12 +1,16 @@
 # Template padrão do site
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+
+<li><a href="template.html"> Código Fonte do template</a></li>
 
 Explique as guias de estilo utilizadas no seu projeto.
 
 ## Design
 
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
+Os elementos padrões do site são 3, sendo eles, a barra de navegações, o fundo e o container principal de conteúdo.
+- A logo ficará dentro do container que representa o fundo do site , ao topo.
+- No container principal de conteúdo, ficará o conteúdo de cada página acessada, que varia.
+A barra de navegação irá ser alterada apenas no menu de busca. Mas de resto, seguirá o padrão do template.
 
 
 ## Cores

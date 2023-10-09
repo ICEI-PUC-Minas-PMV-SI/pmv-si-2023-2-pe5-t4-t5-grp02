@@ -24,15 +24,15 @@ importante lacuna no mercado.
 
 * João Pedro Reis Martins
 * Tais Evelin da Silva
-* Alexandre
-* Marcelo
-* Caio
-* Luigi Rodrigo
-* Lucas
+* Alexandre Fonseca Novaes
+* Marcelo de Lima Rodrigues
+* Caio Assunção Ferreira
+* Luigi Rodrigo dos Santos de Moura
+* Lucas Myrrha Gillis
 
 ## Orientador
 
-* Nesley Daher
+* Nesley Jesus Daher de Oliveira
 
 # Planejamento
 
