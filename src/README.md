@@ -2,10 +2,15 @@
 
 ## Instalação do Site
 
-O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores...
+O site AchaPets é um projeto estático que pode ser visivel localmente ou adicionado em um servidor para acesso através
+de uma URL.
 
 ## Histórico de versões
 
-### [0.1.0] - DD/MM/AAAA
-#### Adicionado
-- Adicionado ...
+### [0.1.0] - 08/10/2023
+#### Template padrão - Etapa 2
+- Adicionado arquivos html e css e de imagens do template padrão do site
+### [0.2.0] - 05/11/2023
+#### Páginas - Etapa 3
+- Adicionado arquivos html e css das páginas do site.
+- Navegação da página inicial para as demais páginas
