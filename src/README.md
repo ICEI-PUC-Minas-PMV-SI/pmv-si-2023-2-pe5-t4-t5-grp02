@@ -8,7 +8,7 @@ de uma URL.
 ## Histórico de versões
 
 ### [0.1.0] - 08/10/2023
-#### <a href="../Etapa2/Index.html"> Template padrão - Etapa 2 </a>
+#### <a href="../Etapa 2/Código template padrão.txt"> Template padrão - Etapa 2 </a>
 - Adicionado arquivos html e css e de imagens do template padrão do site
 ### [0.2.0] - 05/11/2023
 #### <a href="../Etapa3/Index.html"> Páginas - Etapa 3</a>
