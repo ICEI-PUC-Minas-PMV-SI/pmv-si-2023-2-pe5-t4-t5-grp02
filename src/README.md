@@ -1,5 +1,5 @@
 # Instruções de utilização
-
+Os arquivos do site na pasta src incluem apenas a versão mais recente. Mas cada versão haverá sua pasta correspondente à etapa de entrega
 ## Instalação do Site
 
 O site AchaPets é um projeto estático que pode ser visivel localmente ou adicionado em um servidor para acesso através

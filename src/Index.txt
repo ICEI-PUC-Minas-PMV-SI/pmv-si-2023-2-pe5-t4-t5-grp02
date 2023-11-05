@@ -1,0 +1,19 @@
+<!DOCTYPE Html>
+<html>
+	<head>
+		<title>Acha Pets</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body style="background-color:blue;height:100vh;">
+		<div style="display:flex;width:100vw;height:8vh;justify-content:center;align-items:center;"><h2>Acha Dogs</h2></div>
+		<nav style="display:flex;justify-content:;">
+			<button class="navButton">Divulgue</button>
+			<button class="navButton">Encontre Aqui</button>
+			<button class="navButton">Quem somos?</button>
+		</nav>
+	</body>
+
+
+
+</html>

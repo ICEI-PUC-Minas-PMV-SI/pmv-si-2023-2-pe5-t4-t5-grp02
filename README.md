@@ -46,7 +46,7 @@ importante lacuna no mercado.
 
 # Código
 
-<li><a href="src/README.md"> Código Fonte</a></li>
+<li><a href="src/README.md"> Código Fonte</a> (Acesse a versão mais recente do site na pasta src ou procure pela pasta referente à etapa de entrega)</li>
 
 # Apresentação
 
