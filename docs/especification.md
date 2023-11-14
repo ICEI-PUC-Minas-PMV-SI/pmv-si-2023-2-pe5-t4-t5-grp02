@@ -1,24 +1,13 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Desenvolver uma plataforma web para registro e busca de pets perdidos e encontrados, atendendo a voluntários, pet shops e amantes de animais. Inclui registro detalhado, criação de alertas, busca por critérios, compartilhamento em redes sociais e notificações por e-mail. Prioridade na segurança, usabilidade, desempenho, compatibilidade móvel e escalabilidade. Com público-alvo de pessoas de todas as faixas etárias e níveis de ensino, com desktops ou telefones com acesso à internet. Prazo máximo de 6 meses para criação e 12 meses de divulgação, com meta de 200 mil acessos ou downloads em 2 anos.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+01. Persona Pedro Pedro tem 42 anos, é gerente de marketing, se interessa por esportes, culinária e estratégia de negócios. É morador do bairro Moema, em São Paulo - SP e possui certa familiaridade com redes sociais por ter um perfil ativo na rede LinkedIn. 
+02. Persona Maria Maria tem 68 anos, atualmente está aposentada mas fez sua carreira como analista de sistemas, residindo no bairro Betânia em Belo Horizonte. Tem interesse em jardinagem, leitura e voluntariado, compartilhando suas experiências no Facebook e Pinterest. 
+03. Persona Lucas Lucas, é arquiteto recém-formado, com 26 anos,e está trabalhando de forma autônoma atualmente. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar e acompanha os próximos destinos pelo Instagram e YouTube. É solteiro e sempre quis fazer um intercâmbio,está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros, mas ainda está morando no Rio de Janeiro, Botafogo.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 
@@ -29,14 +18,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+01. Pedro Eu Pedro, como Gerente de Marketing, quero ajudar a comunidade de Moema, São Paulo a encontrar seus animais de estimação desaparecidos para ter ação em algum projeto social.
+02. Maria Eu Maria, como Aposentada e ex Analista de sistemas, quero ajudar as pessoas de Belo Horizonte, na busca de seus pets para que eu possa realizar mais ações voluntárias que é um hobbie meu.
+03. Lucas Eu Lucas, como estudante de engenharia civil, quero a ajuda de pessoas que possam encontrar meu cachorrinho, para que eu possa ter ele novamente comigo.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
@@ -44,46 +29,60 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade | Responsável |
-|------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA |  |
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
+|   ID  |                                                    Descrição do Requisito                                               |      Prioridade         |
+|-------|-------------------------------------------------------------------------------------------------------------------------|-------------------------|
+|RF-001| Realizar cadastro de um novo usuário. | O sistema deve permitir o cadastro de novos usuários com os seguintes dados mínimos: nome completo, CPF, e-mail, CEP e senha. |ALTA|
+|RF-002| Realizar Login de usuário. | O sistema deve permitir o cadastro de novos usuários com os seguintes dados mínimos: nome completo, CPF, e-mail, CEP e senha. |ALTA|
+|RF-003| Realizar Logout de usuário. | O sistema deve permitir o cadastro de novos usuários com os seguintes dados mínimos: nome completo, CPF, e-mail, CEP e senha. |ALTA|
+|RF-004| Inserir anúncio de PET desaparecido do usuário. | O sistema deve permitir a inserção de anúncio de PET desaparecido do usuário com nome do PET, tipo de animal, raça, cor, porte, até 5 fotos e contato. |ALTA|
+|RF-005| Editar e excluir anúncio de PET desaparecido do usuário. | O sistema deve permitir a edição e exclusão de anúncio de PET desaparecido do usuário. |ALTA|
+|RF-006| Inserir, editar e excluir proposta de pagamento de recompensa em anúncio cadastrado de PET desaparecido. | O sistema deve permitir a inserção, edição e exclusão de proposta de pagamento de recompensa em anúncio cadastrado de PET 
+desaparecido do usuário. |ALTA|
+|RF-007| Possuir chat no site. | O sistema deve possuir chat para troca de informações entre usuários a respeito de PETs desaparecidos. |ALTA|
+|RF-008| Realizar postagem de anúncio de PETs desaparecidos em redes sociais como Instagram e Facebook. | O sistema deve permitir a postagem de anúncio de PETs desaparecidos no Instagram e Facebook. |ALTA|
+|RF-009| Realizar busca por anúncios de PETs desaparecidos. | O sistema deve permitir a busca por anúncios de PETs desaparecidos com os seguintes campos: nome do PET, tipo de animal, raça e cor. |ALTA|
+|RF-010| Inserir anúncio de PET identificado com suspeita de estar perdido. | O sistema deve permitir a inserção de anúncio de PET que foi identificado por terceiro, na rua por exemplo, em que há suspeita de estar perdido do seu dono. As informações a serem cadastradas são: até 5 fotos do PET, local em que foi identificado e contato da pessoa que identificou. |MÉDIA|
+
 
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|   ID  |                                                    Descrição do Requisito                                               |      Prioridade         |
+|-------|-------------------------------------------------------------------------------------------------------------------------|-------------------------|
+| RNF-001 | O aplicativo deve ter um tempo de carregamento da página inicial de no máximo 2 segundos, para garantir uma boa experiência do usuário. | BAIXA |
+| RNF-002 | A pesquisa por animais perdidos deve retornar resultados em menos de 1 segundo, mesmo com um grande volume de dados. | BAIXA |
+| RNF-003 | Todos os dados pessoais dos usuários, como informações de contato e localização, devem ser armazenados de forma segura e criptografada. | MÉDIA |
+| RNF-004 | O sistema deve ter medidas de autenticação e autorização robustas para proteger os dados do usuário e impedir o acesso não autorizado. | MÉDIA |
+| RNF-005 | A interface do usuário deve ser intuitiva e de fácil utilização, com um design responsivo para atender a dispositivos móveis e desktop. | MÉDIA |
+| RNF-006 | Os formulários de entrada de dados devem incluir validações para garantir a entrada correta e evitar erros. | MÉDIA |
+| RNF-007 | Deve ser possível implantar atualizações e correções de bugs de forma rápida e eficiente, minimizando o tempo de inatividade. | MÉDIA |
+| RNF-008 | Deve ser implementado um sistema de backup de dados para evitar a perda de informações importantes. | ALTA |
+| RNF-009 | O aplicativo deve ser compatível com uma ampla variedade de navegadores da web, como Chrome, Firefox, Edge e Safari. | MÉDIA |
+| RNF-010 | Deve ser testado em diferentes dispositivos e resoluções de tela para garantir uma experiência consistente. | MÉDIA |
+| RNF-011 | O aplicativo deve cumprir todas as regulamentações de privacidade de dados, como o Regulamento Geral de Proteção de Dados (GDPR), se aplicável. | BAIXA |
+| RNF-012 | O aplicativo deve otimizar o uso de recursos do servidor para garantir que ele seja escalável e econômico de operar. | BAIXA |
+| RNF-013 | Deve ser feito o uso eficiente de largura de banda para minimizar o consumo de dados do usuário. | BAIXA |
+| RNF-014 | O aplicativo deve permitir que os usuários compartilhem informações sobre animais perdidos em redes sociais populares, como Facebook e Twitter. | BAIXA |
+| RNF-015 | Deve ser possível integrar o aplicativo com sistemas de geolocalização para fornecer informações precisas sobre a localização dos animais perdidos. | MÉDIA|
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+O projeto está restrito aos itens apresentados a seguir:
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+1- Orçamento Limitado: Restrição financeira pode limitar os recursos disponíveis para desenvolver e manter o site. Isso pode afetar a escolha de tecnologias, a capacidade de contratar desenvolvedores e a escalabilidade da solução. 
 
+2- Tempo Limitado: Um prazo específico para a conclusão do projeto pode ser uma restrição. Isso pode impactar o escopo do site, a quantidade de recursos que podem ser alocados e a capacidade de realizar testes abrangentes.
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
+3- Recursos Humanos Limitados: Se você tiver uma equipe pequena ou recursos humanos limitados, isso pode afetar a complexidade da solução e a velocidade de desenvolvimento.
 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+4- Conectividade à Internet: A disponibilidade de conexões de Internet confiáveis para os usuários pode ser uma restrição. Isso afeta a acessibilidade do site, especialmente em áreas com acesso à Internet limitado.
+
+5- Segurança Cibernética: A segurança é uma consideração crítica, e a falta de recursos para implementar medidas adequadas de segurança pode ser uma restrição.
+
+6- Experiência do Usuário: A necessidade de uma interface de usuário intuitiva e amigável é importante, mas pode ser difícil de alcançar sem recursos adequados.
+
+7- Escalabilidade: Se o site se tornar popular, a capacidade de dimensionar e lidar com um grande volume de dados e tráfego pode ser uma restrição.
+
+8- Manutenção e Atualizações: Garantir que o site continue funcionando de maneira eficaz após o lançamento requer recursos para manutenção contínua e atualizações periódicas.
+
