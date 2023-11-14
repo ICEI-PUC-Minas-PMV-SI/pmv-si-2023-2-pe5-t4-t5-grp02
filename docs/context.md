@@ -1,54 +1,36 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
-
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
-
-
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+O projeto consiste na criação de uma plataforma web dedicada à unificação de postagens de animais de estimação perdidos. 
+Essa iniciativa visa solucionar o problema de dispersão de informações ao oferecer um espaço centralizado para proprietários compartilharem detalhes sobre seus pets desaparecidos. A plataforma é inclusiva e acessível, direcionada a uma ampla faixa etária, com foco na formação de uma comunidade de apoio comprometida em reunir famílias e seus animais de estimação.
+A missão é proporcionar esperança, assistência e eficácia na busca por animais perdidos, preenchendo uma importante lacuna no mercado.
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+De acordo com a Organização Mundial de Saúde (OMS), somente no Brasil, cerca de 30 milhões de animais estão vivendo nas ruas. Dentre esses, estão animais desaparecidos. A população de PETs no Brasil já é a terceira maior do mundo, com mais de 149 milhões de animais de estimação. É razoável sugerir que, quanto maior a população de animais de estimação, maior é a tendência de haver desaparecimento de PETs. Um PET desaparecido tende a tornar-se vulnerável, estando sujeito a situações de fome, frio, exposição a doenças e até risco de morte. Além disso, a família passa por enorme sofrimento pela perda. Diariamente, as pessoas perdem seus pets por diversas razões, e para tentar encontrá-los criam cartazes e publicações nas redes sociais. Estes meios podem ser muitas vezes ignorados ou simplesmente não ter o alcance desejado. Encontrar um PET não é uma tarefa fácil e para a tentar recuperá-los, as pessoas criam cartazes e publicações nas redes sociais de forma não estruturada, de modo que esses meios, de forma geral, possuem baixa eficiência na recuperação do PET. Ao pensar nisso, o projeto visa a criação de uma plataforma web que terá foco em postagens de pets desaparecidos. As publicações terão fotos, detalhes, contatos e até uma possível recompensa caso o dono do pet queira dar um incentivo a mais. Com isso, as pessoas que estiverem utilizando a plataforma estarão lá principalmente com o intuito de ajudar e serem ajudadas e isso garante que a publicação do seu pet desaparecido seja visto pelas pessoas com mais chances de te ajudar de fato. Tudo será feito em um sistema web simples, com as tecnologias HTML, CSS, Javascript e Bootstrap e as funcionalidades primárias serão: Feed de postagens, criação de perfil de usuário, chat e botões que geram postagens nas principais redes sociais.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo central de nosso site é fornecer uma plataforma de apoio dedicada a ajudar pessoas a encontrarem seus animais de estimação perdidos. Em momentos de angústia e preocupação, queremos ser a fonte de esperança e auxílio para aqueles que enfrentam a perda de um membro querido de sua família. Nosso site visa: 
+- Facilitar a busca, permitindo que os proprietários de animais de estimação perdidos criem perfis detalhados e ofereçam informações vitais. 
+- Conectar comunidades locais, promovendo a colaboração entre vizinhos e membros da comunidade para reunir famílias e seus animais de estimação.
+- Disponibilizar recursos educacionais sobre prevenção de perda de animais de estimação, cuidados responsáveis e identificação adequada. 
+- Oferecer suporte emocional, criando um espaço onde pessoas possam compartilhar histórias, experiências e fornecer apoio mútuo. 
+Nossa missão é ser um farol de esperança e solidariedade, proporcionando conforto e assistência durante momentos desafiadores. Juntos, podemos fazer a diferença na vida daqueles que estão buscando reencontrar seus fiéis companheiros.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A criação de uma plataforma web voltada para a unificação de postagens de pets perdidos surge como uma resposta valiosa a um problema enfrentado por muitos proprietários de animais de estimação. A justificativa para este projeto pode ser elaborada da seguinte forma: 
+- Unificação de Postagens: Atualmente, as pessoas que perdem seus pets muitas vezes recorrem a várias plataformas e redes sociais para divulgar informações sobre seus animais desaparecidos. Isso resulta em uma dispersão de recursos e informações. A criação de uma plataforma centralizada resolve esse problema, reunindo todas as informações em um só lugar, tornando mais fácil para os proprietários e para aqueles que desejam ajudar a encontrar os animais.
+- Ausência de Aplicativos Específicos: Apesar da importância dos animais de estimação nas vidas das pessoas, não existe, até o momento, um aplicativo ou plataforma web amplamente conhecido e dedicado exclusivamente a esse segmento. A criação dessa plataforma preenche uma lacuna importante no mercado, proporcionando uma solução especializada para a localização de pets perdidos.
+- Foco na Comunidade de Apoio: A plataforma proposta visa criar uma comunidade de apoio dedicada a ajudar a localizar animais de estimação desaparecidos. Ao contrário das redes sociais tradicionais, onde as postagens podem ser perdidas em meio a um grande volume de conteúdo, a plataforma reunirá pessoas que estão genuinamente interessadas em ajudar. Isso aumenta significativamente as chances de que as postagens sobre pets desaparecidos sejam vistas pelas pessoas com mais probabilidade de contribuir eficazmente para a busca. Além disso, essa comunidade também pode estabelecer parcerias com ONGs (Organizações Não Governamentais) dedicadas ao bem-estar animal, como a "ONG Amigos dos Animais", a "ONG Patas Solidárias" e a "ONG Vida Animal", que têm expertise em resgate e reabilitação de animais de rua ou abandonados, tornando a busca por animais desaparecidos ainda mais eficaz e solidária.
+- Facilidade de Uso: A plataforma será acessível e de fácil utilização para uma ampla gama de usuários, independentemente de sua experiência tecnológica. Isso contribuirá para que a plataforma atinja um público amplo e diversificado. 
+Para a definição dos objetivos específicos, foi utilizada a premissa de que a chance de encontrar o PET desaparecido reduz à medida em que o tempo de desaparecimento aumenta, tendo em vista que o PET tende a se afastar cada vez mais do local que desapareceu, somado à premissa de atuar na prevenção do desaparecimento de PETs Assim, estratégias que potencializam a chance de reencontrar o PET são: inserir o anúncio o mais rápido possível e divulgar o mais rápido possível para pessoas que estejam próximas ao local em que o PET desapareceu.
+Em resumo, a criação desta plataforma web é justificada pela necessidade de oferecer uma solução centralizada e especializada para um problema comum enfrentado pelos donos de animais de estimação. A plataforma tem o potencial de unificar esforços, mobilizar uma comunidade de apoio e, finalmente, aumentar as chances de reunir pets perdidos com seus proprietários preocupados.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+A aplicação é destinada à todos aqueles que procuram por um animal que no momento está desaparecido e também para o usuário que busca uma forma de contribuir com a tomada de informações para que o processo de busca possa ser feito de maneira mais eficaz. Por ser acessível e de fácil entendimento, a plataforma possui um público abrangente em relação ao quesito idade, podendo ser considerado a faixa etária de 18 a 70 anos, ressalvado a maior interação com usuários de 30 a 45 anos que representam a maior parte da população que possui pets no Brasil. Ademais, vale a consideração quanto ao uso para menores de idade, que no caso deverá ser autorizado por um responsável legal, em conformidade com a legislação vigente.
+Não é necessário um conhecimento específico, mas para o bom funcionamento é recomendável que o usuário tenha familiaridade com tecnologia, mais precisamente postagens como as realizadas em redes sociais, totalmente inclusivo e acessível uma vez que se trata de algo corriqueiro atualmente.
+Partindo do ponto de que atualmente os animais de estimação ocupam um lugar cada vez mais importante na vida familiar, o requisito necessário para utilização da plataforma seria unicamente a boa vontade em ajudar aqueles que vivem o drama do desaparecimento, assim como o amor do dono do animal que busca encontrá-lo com maior rapidez possível.
