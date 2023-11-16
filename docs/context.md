@@ -2,7 +2,7 @@
 
 O projeto consiste na criação de uma plataforma web dedicada à unificação de postagens de animais de estimação perdidos. 
 Essa iniciativa visa solucionar o problema de dispersão de informações ao oferecer um espaço centralizado para proprietários compartilharem detalhes sobre seus pets desaparecidos. A plataforma é inclusiva e acessível, direcionada a uma ampla faixa etária, com foco na formação de uma comunidade de apoio comprometida em reunir famílias e seus animais de estimação.
-A missão é proporcionar esperança, assistência e eficácia na busca por animais perdidos, preenchendo uma importante lacuna no mercadooooo.
+A missão é proporcionar esperança, assistência e eficácia na busca por animais perdidos, preenchendo uma importante lacuna no mercado.
 
 ## Problema
 
