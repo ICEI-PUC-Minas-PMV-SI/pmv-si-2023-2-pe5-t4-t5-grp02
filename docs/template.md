@@ -3,8 +3,6 @@
 
 <li><a href="template.html"> Código Fonte do template</a></li>
 
-Explique as guias de estilo utilizadas no seu projeto.
-
 ## Design
 
 Os elementos padrões do site são 3, sendo eles, a barra de navegações, o fundo e o container principal de conteúdo.
