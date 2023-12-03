@@ -15,26 +15,19 @@ A barra de navegação irá ser alterada apenas no menu de busca. Mas de resto, 
 
 ## Cores
 
-Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
+As cores que serão usadas no nosso site são as seguintes cores:
+Preto - rgba(0, 0, 0, 0.25)
+Laranja -  #F59708
+Branco - #FFFFFF
+Azul - rgba(77, 154, 243, 0.80)
+
 
 
 ## Tipografia
 
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
+As fontes utilizadas no site são a  Cherry Bomb One e a Calibri, a Cherry Bomb One sendo usada em todos os títulos e subtitulos do site e a calibri apenas para informações de usuários e informações dos animais.
 
 
 ## Iconografia
 
-Defina os ícones que serão utilizados e suas respectivas funções.
-
-Apresente os estilos CSS criados para cada um dos elementos apresentados.
-Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
-
-
-> **Links Úteis**:
->
-> -  [Como criar um guia de estilo de design da Web](https://edrodrigues.com.br/blog/como-criar-um-guia-de-estilo-de-design-da-web/#)
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+Os únicos ícones que o site terá serão os de Email, telefone e endereço, mas os mesmos não terão nenhuma funcionalidade específica.
