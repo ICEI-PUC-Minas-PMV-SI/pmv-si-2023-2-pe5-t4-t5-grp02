@@ -1,0 +1,198 @@
+*{
+box-sizing:border-box;
+
+}
+body{
+background-image: radial-gradient(circle, #ffffff, #c0c0c0);
+background-color: #c0c0c0;
+height:100%;
+width:100%;
+padding:0px 1.5% 0px 1.5%;
+margin: 0;
+}
+
+.title{
+display:flex;
+width:100%;
+height:7vh;
+justify-content:center;
+align-items:center;
+}
+
+.title img{
+object-fit: cover;
+height: 100%;
+}
+.main-content{
+width:100%;
+height:auto;
+display:flex;
+justify-content:center;
+
+}
+main{
+background-color:#4caae9;
+border: 1px solid black;
+border-radius: 2%;
+width:94%;
+height: 88vh;
+padding: 2% 5% 2% 5%;
+overflow:auto;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 13%;
+    padding: 2%;
+    border-bottom: 4px double black;
+    margin: 0px 0px 2% 0px;
+    align-items: center;
+}
+
+
+.search-container {
+    background-color: rgb(76, 83, 148);
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+/* Estilizando o ícone de lupa */
+.search-icon {
+    color: white;
+    margin-right: 10px;
+}
+.slider-icon{
+    font-size: 40px !important;
+    margin-left: 10px;
+}
+.search-slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza os itens dentro da div agrupadora */
+    flex-grow: 1; /* Permite que a div agrupadora cresça para ocupar o espaço disponível */
+}
+
+
+/* Estilizando o input de texto */
+.search-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background: none;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    height: 20px;
+}
+.search-input::placeholder {
+    color: black;
+    font-family: 'Cherry Bomb One', cursive;
+    font-size: 15px;
+}
+
+
+.generic-div{
+    background-color: orange;
+    width: 100%;
+    height: 80%;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px; /* Espaçamento entre as células */
+    padding: 16px; /* Espaçamento interno */
+    overflow-y: auto; /* Barra de rolagem vertical */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    align-items: center;
+    justify-items: center;
+}
+.dogPost{
+    background-image: url('Imagens/cachorro divulgue.png');
+    width: 269px; /* Largura fixa */       
+    height: 520px; /* Altura fixa */
+    background-color: lightblue;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+.catPost{
+    background-image: url('Imagens/gato divulgue.png');
+    width: 270px; /* Largura fixa */
+    height: 520px; /* Altura fixa */
+    background-color: lightblue;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+.formularioContato{
+    width: 500px; /* Largura fixa */
+    height: 520px; /* Altura fixa */
+    background-color: lightblue;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    text-align: center;
+
+}
+.enviarFormulario{
+    border:none;
+    background-color:orange;
+    width:25%;
+    text-align:center;
+    font-size:1.5rem;
+    border-radius:8px;
+    cursor:pointer;
+    font-family: 'Cherry Bomb One', cursive;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    height: 40px; /* ou qualquer outra altura desejada */
+    width: 200px; /* ou qualquer outra largura desejada */
+    line-height: 40px; /* igual à altura para centralizar o texto verticalmente */
+    vertical-align: middle; 
+
+}
+.textoFormulario{
+    
+    font-family: 'Cherry Bomb One', cursive;
+    text-align: left;
+
+
+}
+.caixaFormulario{
+    
+    border:none;
+    background-color:orange;
+    width:25%;
+    text-align:center;
+    font-size:1.5rem;
+    border-radius:2px;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    height: 30px; /* ou qualquer outra altura desejada */
+    width: 300px; /* ou qualquer outra largura desejada */
+    line-height: 40px; /* igual à altura para centralizar o texto verticalmente */
+    vertical-align: middle;
+
+}
