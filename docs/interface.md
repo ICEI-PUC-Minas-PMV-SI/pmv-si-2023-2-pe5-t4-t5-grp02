@@ -24,8 +24,19 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 ### Wireframes do site
 
 A página inicial apresenta no topo a logo do site, em seguida temos um container que no topo dele tem os botões de navegações para outras páginas, mais abaixo temos temos um container com as fotos e informações dos últimos 3 pets cadastrados no nosso site e mais abaixo temos outros dois containers, um na esquerda que tem depoimentos de pessoas que já utilizaram nosso site e na direita com nossas informações de contato.
-https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe5-t4-t5-grp02/blob/main/docs/img/paginainicial.jpg
-
 ![Pagina inicial](img/paginainicial.jpg)
+
+A página "Encontre Aqui" apresenta no topo a logo do site, em seguida temos um container que no topo dele tem os botões de navegações para outras página e uma barra de pesquisas para procurar o cão pela raça, local ou pelo nome caso saibam e dentro desse container temos um outro container onde ficam os animais que foram cadastrados, com fotos, nome, raça e demais coisas do animal.
+![Pagina Encontre Aqui](img/paginaencontre.jpg)
+
+A tela de divulgação apresenta um formulário breve, onde é possível informar dados sobre seu pet perdido. O formulário ao centro apresenta um elemento para envio de imagens e 3 elementos para adicionar texto(Nome, Idade e Localização). Ao topo se encontra o menu para navegar entre as diferentes páginas do site.
+![Pagina divulgue Aqui](img/paginadivulgue.jpg)
+
+A página do perfil apresenta no topo a logo do site, em seguida temos um container que no topo dele tem os botões de navegações para outras páginas, mais abaixo temos temos um container com a foto e as informações do usuário e se ele já fez alguma divulgação de algum animal.
+![Pagina Encontre Aqui](img/paginaperfil.jpg)
+
+A página quem somos apresenta no topo a logo do site, em seguida temos um container que no topo dele tem os botões de navegações para outras páginas, mais abaixo temos temos um container com uma foto de uma criaça abraçando um cachorro que representa o amor do grupo pelos animais e um texto explicando quem somos e porque temos o objetivo de fazer o site.
+![Pagina Quem Somos](img/paginaquemsomos.jpg)
+
 
 
