@@ -24,6 +24,8 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 ### Wireframes do site
 
 A página inicial apresenta no topo a logo do site, em seguida temos um container que no topo dele tem os botões de navegações para outras páginas, mais abaixo temos temos um container com as fotos e informações dos últimos 3 pets cadastrados no nosso site e mais abaixo temos outros dois containers, um na esquerda que tem depoimentos de pessoas que já utilizaram nosso site e na direita com nossas informações de contato.
-(img/paginainicial.jpg)
+https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe5-t4-t5-grp02/blob/main/docs/img/paginainicial.jpg
+
+![Pagina inicial](img/paginainicial.jpg)
 
 
