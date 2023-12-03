@@ -1,24 +1,169 @@
-<!DOCTYPE Html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Acha Pets</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
-	</head>
+<head>
+    <meta charset="UTF-8">
+    <title>Acha Pets</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
 
-	<body>
-		<div class="title"><h2>Acha Pets</h2></div>
-		<div class="main-content">
-			<main style="background-color: #4D9AF3">
-				<nav id="navbar">
-					<button class="navButton">Divulgue</button>
-					<button class="navButton">Encontre Aqui</button>
-					<button class="navButton">Quem somos?</button>
-				</nav>
-			</main>
+        .navButton img {
+            width: 100%;
+            height: 100%;
+            border-radius: 9999px;
+        }
+
+        .navButton {
+            width: 100%;
+            height: 100%;
+            background: none;
+            border: none;
+            color: #000000;
+            font-family: "Cherry Bomb One", cursive;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+
+		.div1 {
+            width: 300px;
+            height: 52px;
+            left: 1280px;
+            top: 505px;
+            position: absolute;
+            font-size: 18px; 
+        }
+
+        .div2 {
+            width: 300px;
+            height: 52px;
+            left: 320px;
+            top: 505px;
+            position: absolute;
+            font-size: 18px; 
+        }
+
+        .div3 {
+            width: 300px;
+            height: 52px;
+            left: 800px;
+            top: 505px;
+            position: absolute;
+            font-size: 18px; 
+        }
+
+
+        .background-overlay {
+            position: absolute;
+        }
+
+    </style>
+
+</head>
+<body>
+		<!-- Fundo da página -->
+		<div style="width: 100vw; height: 200vh; position: fixed; background: rgba(77, 154, 243, 0.80); z-index: -1;"></div>
+
+		 <!-- Retângulo azul base de trás -->
+		 <div style="width: 1500px; height: 850px; left: 230px; top: 55px; position: absolute; background: #FFFFFF; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25) inset; border-radius: 10px; border: 1px #FFFFFF solid"></div>
+		 <!-- Retângulo laranja base de trás -->
+		 <div style="width: 1400px; height: 350px; left: 280px; top: 225px; position: absolute; background: #F59700; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset; border-radius: 10px"></div>
+
+		 <!-- Retângulo laranja depoimento -->
+		 <div style="width: 650px; height: 300px; left: 280px; top: 590px; position: absolute; background: #F59700; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset; border-radius: 10px"></div>
+
+		 <!-- Retângulo laranja contato -->
+		 <div style="width: 650px; height: 300px; left: 1028px; top: 590px; position: absolute; background: #F59700; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset; border-radius: 10px"></div>
+
+		 <!-- Logo do site -->
+		 <img style="width: 321px; height: 100px; left: 825px; top: 30px; position: absolute" src="imgs/Logo.png">
+
+		 <!-- Botões de navegação -->
+		 <div style="width: 300px; height: 41px; left: 280px; top: 150px; position: absolute; background: #F59708; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset; border-radius: 10px">
+			<a href="paginadivulgacao/Index.html"><button class="navButton">Divulgue</button></a>
+					
+		</div>
+		
+		<div style="width: 300px; height: 41px; left: 750px; top: 150px; position: absolute; background: #F59708; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset; border-radius: 10px">
+			<a href="paginaencontre/Index.html"><button class="navButton">Encontre Aqui</button></a>
+		</div>
+		
+		<div style="width: 300px; height: 41px; left: 1200px; top: 150px; position: absolute; background: #F59708; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset; border-radius: 10px">
+			<a href="paginaquemsomos/index.html"><button class="navButton">Quem somos?</button></a>
 		</div>
 
-	</body>
+		<div style="width: 100px; height: 90px; left: 1580px; top: 100px; position: absolute; border-radius: 9999px">
+			<a href="paginaperfil/Index.html" class="navButton">
+				<img src="imgs/EU.jpg" alt="Perfil"/>
+			</a>
+		</div>
+		
+
+		<!-- Linha divisória -->
+		<div style="width: 1400px; height: 0px; left: 280px; top: 200px; position: absolute; background: #D9D9D9; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border: 1px black solid"></div>
 
 
+		<!-- Blocos azul com informações -->
+		<div style="width: 400px; height: 67px; left: 300px; top: 500px; position: absolute; background: #4D9AF3; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)"></div>
+		<div style="width: 400px; height: 67px; left: 780px; top: 500px; position: absolute; background: #4D9AF3; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)"></div>
+		<div style="width: 400px; height: 67px; left: 1260px; top: 500px; position: absolute; background: #4D9AF3; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)"></div>
 
-</html>
+		<!-- Ícones do email, telefone e endereço -->
+		<img style="width: 45px; height: 29px; left: 1050px; top: 740px; position: absolute; border-radius: 9999px" src="imgs/email.jpg">
+		<img style="width: 45px; height: 29px; left: 1050px; top: 705px; position: absolute; border-radius: 9999px" src="imgs/telefone.jpg">
+		<img style="width: 45px; height: 29px; left: 1050px; top: 775px; position: absolute; border-radius: 9999px" src="imgs/endereço.jpg">
+
+		<!-- Informações de contato -->
+		<div style="width: 505px; height: 88px; left: 1100px; top: 710px; position: absolute">
+			<span style="color: black; font-size: 15px; font-family: Chivo; font-weight: 900; word-wrap: break-word">Email: </span>
+			<span style="color: black; font-size: 15px; font-family: Chivo; font-weight: 400; word-wrap: break-word">achadogs@achadogs.com.br<br/><br/></span>
+			<span style="color: black; font-size: 15px; font-family: Chivo; font-weight: 900; word-wrap: break-word">Telefones:</span>
+			<span style="color: black; font-size: 15px; font-family: Chivo; font-weight: 400; word-wrap: break-word"> (31) 3451-9876 / (31) 3214-5678<br/><br/></span>
+			<span style="color: black; font-size: 15px; font-family: Chivo; font-weight: 900; word-wrap: break-word">Endereço:</span>
+			<span style="color: black; font-size: 15px; font-family: Chivo; font-weight: 400; word-wrap: break-word">Rua Jatobá, N°344, Bairro Caixalândia - Belo Horizonte/MG</span>
+		</div>
+
+		 <!-- foto dos animais-->
+		 <img style="width: 400px; height: 200px; left: 780px; top: 300px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-top-left-radius: 10px; border-top-right-radius: 10px" src="imgs/pitbull.jpg">
+		 <img style="width: 400px; height: 200px; left: 300px; top: 300px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-top-left-radius: 10px; border-top-right-radius: 10px" src="imgs/Gato.jpg">
+		 <img style="width: 400px; height: 200px; left: 1260px; top: 300px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-top-left-radius: 10px; border-top-right-radius: 10px" src="imgs/Passaro.jpg">
+
+		 <!-- Descrição dos animais-->
+		 <div class="animalDescription div1">
+			Nome: Teteia<br/>
+			Idade: 8 meses<br/>
+			Local: Niterói/RJ<br/>
+		</div>
+	
+		<div class="animalDescription div2">
+			Nome: Pitoco<br/>
+			Idade: 2 anos<br/>
+			Local: Campinas/SP<br/>
+		</div>
+	
+		<div class="animalDescription div3">
+			Nome: Hulk<br/>
+			Idade: 5 anos<br/>
+			Local: Belo Horizonte/MG<br/>
+		</div>
+
+		<!-- Depoimentos-->
+		<div style="width: 576px; height: 25px; left: 300px; top: 654px; position: absolute"><span style="color: black; font-size: 15px; font-family: Chivo; font-weight: 900; word-wrap: break-word">João Pedro:</span><span style="color: black; font-size: 15px; font-family: Chivo; font-weight: 400; word-wrap: break-word"> Esse site é demais! Me ajudaram a recuperar meu melhor amigo!</span></div>
+		<div style="width: 576px; height: 25px; left: 300px; top: 691px; position: absolute"><span style="color: black; font-size: 15px; font-family: Chivo; font-weight: 900; word-wrap: break-word">Tais:</span><span style="color: black; font-size: 15px; font-family: Chivo; font-weight: 400; word-wrap: break-word"> Eu estava totalmente triste por ter pedido meu pet, até me apresentarem esse site e consegui achar o meu pet.</span></div>
+		<div style="width: 576px; height: 36px; left: 300px; top: 742px; position: absolute"><span style="color: black; font-size: 15px; font-family: Chivo; font-weight: 900; word-wrap: break-word">Alexandre:</span><span style="color: black; font-size: 15px; font-family: Chivo; font-weight: 400; word-wrap: break-word"> São sites como esse, que contribuem para a vida das pessoas que realmente faz a diferença!</span></div>
+		<div style="width: 576px; height: 36px; left: 300px; top: 790px; position: absolute"><span style="color: black; font-size: 15px; font-family: Chivo; font-weight: 900; word-wrap: break-word">Caio:</span><span style="color: black; font-size: 15px; font-family: Chivo; font-weight: 400; word-wrap: break-word"> Não imagina como encontraria meu pet, e me apresentaram esse site magnifico, encontrei ele assim que o cadastrei no site!</span></div>
+
+		<!-- Titulos-->
+		<div style="width: 193px; height: 36px; left: 880px; top: 225px; position: absolute; color: black; font-size: 32px; font-family: Cherry Bomb One; font-weight: 400; word-wrap: break-word">Você me viu?</div>
+		<div style="width: 193px; height: 36px; left: 480px; top: 590px; position: absolute; color: black; font-size: 32px; font-family: Cherry Bomb One; font-weight: 400; word-wrap: break-word">Depoimentos</div>
+		<div style="width: 136px; height: 36px; left: 1300px; top: 590px; position: absolute; color: black; font-size: 32px; font-family: Cherry Bomb One; font-weight: 400; word-wrap: break-word">Contatos</div>
+
+
+<body>
