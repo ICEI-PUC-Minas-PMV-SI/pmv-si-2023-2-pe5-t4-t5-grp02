@@ -32,6 +32,10 @@
             border-radius: 10px;
         }
 
+        .navButton.clicked {
+            background-color: #ffcc00; /* Altere para a cor desejada */
+            color: #000000; /* Altere para a cor desejada */
+        }
 
         .background-overlay {
             position: absolute;
@@ -105,5 +109,16 @@
 
     <!-- Informações resumidas do cachorro -->
     <div style="width: 300px; height: 47px; left: 830px; top: 782px; position: absolute; color: black; font-size: 15px; font-family: Chivo; font-weight: 400; word-wrap: break-word"> Nome: Hulk <br/>Idade: 5 anos<br/>Local: Belo Horizonte/MG<br/></div>
+<script>
+            document.addEventListener("DOMContentLoaded", function() {
+            var navButtons = document.querySelectorAll('.navButton');
+    
+            navButtons.forEach(function(button) {
+                button.addEventListener('click', function() {
+                    button.classList.add('clicked'); // Adiciona uma classe de estilo quando o botão é clicado
+                });
+            });
+        });
+</script>
 </body>
 </html>

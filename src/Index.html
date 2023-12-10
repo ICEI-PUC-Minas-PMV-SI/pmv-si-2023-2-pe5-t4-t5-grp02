@@ -59,6 +59,11 @@
             font-size: 18px; 
         }
 
+		.navButton.clicked {
+        background-color: #ffcc00; /* Altere para a cor desejada */
+        color: #000000; /* Altere para a cor desejada */
+    	}	
+
 
         .background-overlay {
             position: absolute;
@@ -164,6 +169,17 @@
 		<div style="width: 193px; height: 36px; left: 880px; top: 225px; position: absolute; color: black; font-size: 32px; font-family: Cherry Bomb One; font-weight: 400; word-wrap: break-word">Você me viu?</div>
 		<div style="width: 193px; height: 36px; left: 480px; top: 590px; position: absolute; color: black; font-size: 32px; font-family: Cherry Bomb One; font-weight: 400; word-wrap: break-word">Depoimentos</div>
 		<div style="width: 136px; height: 36px; left: 1300px; top: 590px; position: absolute; color: black; font-size: 32px; font-family: Cherry Bomb One; font-weight: 400; word-wrap: break-word">Contatos</div>
-
-
-<body>
+	
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+				var navButtons = document.querySelectorAll('.navButton');
+		
+				navButtons.forEach(function(button) {
+					button.addEventListener('click', function() {
+						button.classList.add('clicked'); 
+					});
+				});
+			});
+		</script>
+	</body>
+	</html>

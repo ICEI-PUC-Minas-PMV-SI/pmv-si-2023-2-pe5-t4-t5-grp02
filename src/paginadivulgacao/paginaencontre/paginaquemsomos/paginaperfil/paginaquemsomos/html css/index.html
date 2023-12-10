@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acha Pets</title>
+    
+    <style>
+        body{
+            background-color: rgba(0, 0, 255, 0.397);
+            display: grid;
+            font-family: 'cherrybomb';
+        }
+        @font-face {
+            font-family: 'cherrybomb';
+            src: url(fontes/CherryBombOne-Regular.ttf);
+        }
+
+        .main{
+            background-color: rgba(2, 2, 247, 0.253); 
+            width: 1000px;
+            height: 600px;
+            padding: 60px;
+            margin: auto;
+            border-radius: 15px;
+        }
+        
+        div{
+            display: inline-block;
+        }
+        
+        .img, .h2, .h3{
+            display: inline-block;
+        }
+
+        .corpo {
+            margin: auto;
+            width: 1000px;
+            height: 500px;
+            background-color: rgb(255, 166, 0, 0.904);
+            border-radius: 15px;
+            font-family: 'cherrybomb';
+        }
+
+        .conteudo{
+            display: table;
+        }
+
+        .imagem{
+            display: table-cell;
+            float: left;
+            margin-right: 60px;
+            margin-left: 80px;
+            
+            height: 80px;
+        }
+
+        .subtitulo{
+            margin-left: 50px;
+            font-family: 'cherrybomb';
+        }
+
+        .texto{
+            display: table-cell;
+            float: left;
+            width: 500px;
+            margin: auto;
+            display: inline-block;
+            margin-block-end: 10px;
+            margin-left: 50px;
+            text-indent: 40px;
+            text-align: justify;
+            text-indent: 50px;
+            font-family: 'cherrybomb';
+        }
+
+        .btn1, .btn2, .btn3{
+            background-color: rgba(255, 166, 0, 0.904);
+            color: black; 
+            border: 1px white solid;
+            border-radius: 15px;
+            width: 120px;
+            height: 40px;
+            display: inline-block;
+            margin-block-end: 10px;
+            margin-left: 120px;
+            margin-right: 70px;
+            font-family: 'cherrybomb';
+        }
+    </style>
+</head>
+
+<body>
+    <h1><center>Acha Pets</center></h1>
+
+    <div class="main">
+        <main> 
+
+            <section class="botoes">
+                <button class="btn1" type="button" >
+                <b>Divulgue</b> 
+                </button>
+                <button class="btn2" type="button">
+                <b>Encontre Aqui</b> 
+                </button>
+                <button class="btn3" type="button">
+                <b>Quem Somos?</b> 
+                </button>
+                <hr color="white">
+            </section>
+    
+            <section class="corpo">
+
+                <h2><center><br>Quem somos?</center> </h2>
+
+                <div class="subtitulo">
+                    <h3>Somos uma equipe apaixonada por pets</h3> 
+                </div>
+    
+                    <div class="conteudo">
+                        <div class="texto">
+                            <p>Nossa equipe teve sua origem entre alunos da PUC Minas do Curso de Sistemas de Informação, compartilhando experiências dolorosas de perda de animais de estimação. Movidos por uma paixão profunda e dedicados a um propósito nobre na causa animal.</p>
+                            <p>A nossa missão é clara, reunir as famílias com seus animais de estimação perdidos. Cada membro da nossa equipe é impulssionado por um desejo inabalável de fazer a diferença na vida dos animais e de seus turores. Nós entendemos o quão angustiante pode ser quando um animais desaparece, e é por isso que nos dedicamos incansavelmente à trazê-los de volta para casa.</p>
+                        </div>
+    
+                        <div class="imagem">
+                            <img src="imagens/meninoecachorro.jpeg" alt="menino e cachorro se abraçando">
+                        </div>
+                        
+                    </div>
+                
+    
+            </section>  
+            
+            
+            
+        </main>
+    </div>
+    
+    
+    
+    
+</body>
+</html>
