@@ -25,18 +25,31 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito | Prioridade | Artefato Criado |
-|------|------------------------|------------|-----------------|
-|RF-001| O sistema deve exibir as notícias mais populares. | ALTA | index.html |
-|RF-002| Usuários autenticados podem registrar novas notícias. | ALTA | cadastro-noticia.html |
+|ID    | Descrição do Requisito  | Prioridade | Responsável | Artefato |
+|------|-----------------------------------------|----| ----| --------- |
+|RF-001| A aplicação Web permitirá o usuário se cadastrar | ALTA | João, Tais, Marcelo, Luigi, Caio | login.html |
+|RF-002| A aplicação Web permitirá o usuário se logar   | ALTA | João, Tais, Marcelo, Luigi, Caio | login.html | 
+|RF-003| A aplicação Web permitirá Inserir anúncio de PET desaparecido do usuário.   | ALTA  | João, Tais, Marcelo, Luigi, Caio | forum.html |
+|RF-004| A aplicação Web permitirá o usuário Editar e excluir anúncio de PET desaparecido do usuário.   | ALTA  | João, Tais, Marcelo, Luigi, Caio | forum.html |
+|RF-005| A aplicação Web permitirá o usuário Realizar busca por anúncios de PETs desaparecidos. | ALTA  | João, Tais, Marcelo, Luigi, Caio | mapa.html |
+|RF-006| A aplicação Web permitirá apenas aos usuários cadastradados criarem/alterarem/atualizarem anotações do mapa   | ALTA  | João, Tais, Marcelo, Luigi, Caio | mapa.html |
+|RF-009| A aplicação Web conterá uma aba sobre os criadores   | ALTA  |João, Tais, Marcelo, Luigi, Caio | quemsomos.html |
 
 ## Descrição das estruturas:
 
-## Notícia
+## Login/Cadastro
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
+| Id do usuário  | Numero (Inteiro)  | Identificador de usuário                  | 001                                            |
+| Nome           | Texto             | Nome do usuário                           | Roberto                                        |
+| E-mail         | Texto             | Email do usuário                          | exemplo@sga.pucminas.br                        |
+| Senha          | Número e (ou) texto   | Senha do usuário                      | ******* (é segredo!)                           |
+
+## Divulgue
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Id do usuário  | Numero (Inteiro)  | Identificador de usuário                  | 001                                            |
+| Nome           | Texto             | Nome do usuário                           | Roberto                                        |
+| Data/Hora      | Texto ou Date     | Data de envio do PIN                      | 31/05/2023                                     |
+| Descrição      | Texto             | Informações do animal                     | Raça, Chow-Chow, 3 anos, nome: Thor            |
 
