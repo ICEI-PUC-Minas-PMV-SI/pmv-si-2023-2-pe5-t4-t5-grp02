@@ -1,0 +1,399 @@
+/* Estilização do Fundo da Página */
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw; 
+    height: 200vh; 
+    position: relative; 
+    background: rgba(77, 154, 243, 0.80); 
+    z-index: -1;
+}
+
+/* Estilização do Container Principal */
+
+.main-content {
+    margin: 0;
+    padding: 0;
+    width: auto; 
+    height: 780px; 
+    left: 25px; 
+    top: 25px;
+    bottom: 50px;
+    right: 25px;
+    position: absolute; 
+    background: #FFFFFF; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25) inset; 
+    border-radius: 10px; 
+    border: 1px #FFFFFF solid;
+}
+
+.main-content-pets-desaparecidos {
+    margin: 0;
+    padding: 0;
+    width: auto; 
+    height: 1250px; 
+    left: 25px; 
+    top: 25px;
+    bottom: 50px;
+    right: 25px;
+    position: absolute; 
+    background: #FFFFFF; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25) inset; 
+    border-radius: 10px; 
+    border: 1px #FFFFFF solid;
+}
+
+/* Estilização da Imagem da Logo */
+
+.logo {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+}
+
+#img_logo {
+    width: 130px;
+    height: 80px;
+}
+
+#text-login-home {
+    display: inline-block;
+    margin-left: 1300px;
+    font-family: "Cherry Bomb One", cursive;
+    font-size: 19px;
+    color: #000000;
+}
+
+#text-cadastrar-home {
+    display: inline-block;
+    margin-left: 1250px;
+    font-family: "Cherry Bomb One", cursive;
+    font-size: 19px;
+    color: #000000;
+}
+
+nav {
+    height: 35px;
+}
+
+/* Estilização dos Botões da Página Inicial */
+
+.buttons {
+    margin: 0;
+    padding: 0;
+    width: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navButton {
+    margin: 30px;
+    width: 400px; 
+    height: 41px; 
+    border: none;
+    color: #000000;
+    font-family: "Cherry Bomb One", cursive;
+    font-size: 18px;
+    border-radius: 10px; 
+    background: #F59708; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset; 
+}
+
+/* Estilização da linha divisória */
+
+.line {
+    width: 1315px; 
+    margin: 0 35px;
+    height: 0px;
+    background: #D9D9D9; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border: 1px black solid;
+   
+}
+
+/* Estilização do container Você me viu? */
+
+.voce_me_viu {
+    width: 1320px; 
+    height: 350px; 
+    margin: 0 35px;
+    margin-top: 20px;
+    position: absolute; 
+    background: #F59700; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset; 
+    border-radius: 10px;    
+}
+
+.pets-desaparecidos-container {
+    width: 1320px; 
+    height: 940px; 
+    margin: 0 35px;
+    margin-top: 20px;
+    position: absolute; 
+    background: #F59700; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset; 
+    border-radius: 10px;    
+}
+
+/* Estilização Texto Você me viu? */
+
+.texto_titulo {
+    padding: 10px;
+    border: none;
+    color: #000000;
+    font-family: "Cherry Bomb One", cursive;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilização de Cards */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 25%;
+    display: inline-block;
+    margin: 0 35px;
+    margin-left: 75px;
+    margin-right: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .img-card {
+    border-radius: 10px;
+    max-height: 180px;
+  }
+
+  .h4-card {
+    color: #000000;
+    font-family: "Cherry Bomb One", cursive;
+    font-size: 25px;
+  }
+
+  .p-card {
+    olor: #000000;
+    font-family: "Cherry Bomb One", cursive;
+    font-size: 18px;
+  }
+
+/* Estilização do container Depoimentos e Contatos */
+
+.depoimentos {
+    width: 650px; 
+    height: 150px; 
+    left: 35px; 
+    top: 600px;
+    position: absolute; 
+    background: #F59700; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset; 
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.contatos {
+    width: 650px; 
+    height: 150px; 
+    right: 35px;
+    top: 600px;
+    position: absolute; 
+    background: #F59700; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset; 
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* Estilização dos Títulos de Depoimentos e Contatos */
+
+.h4-depoimentos_contatos {
+    padding: 5px;
+    color: #000000;
+    font-family: "Cherry Bomb One", cursive;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilização de Texto de Depoimentos */
+
+.p-depoimentos {
+    padding: 5px;
+    color: #000000;
+    font-family: "Cherry Bomb One", cursive;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+.p-contatos {
+    color: #000000;
+    font-family: "Cherry Bomb One", cursive;
+    font-size: 20px;
+    height: 15px;
+    margin-left: 10px;
+}
+
+/* Fim da Estilização da página Index */
+
+/* Estilização da Página Divulgue */
+
+/* Estilização do container de fundo laranja com imagens e formulário */
+.container-formulario-imgs {
+    width: 1320px; 
+    height: 500px; 
+    margin: 0 35px;
+    margin-top: 20px;
+    position: absolute; 
+    background: #F59700; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset; 
+    border-radius: 10px;    
+}
+
+/* Estilização de imagens da página de divulgação */
+
+div.container-formulario-imgs {
+    display: inline-block;
+    border-radius: 10px;    
+}
+
+.img-divulgacao {
+    border-radius: 10px;
+    width: 21%;
+    height: 100%;
+    display: inline-block;
+}
+
+#img-gato-divulgacao {
+    margin-left: 760px;
+}
+
+/* Estilização do formulário para cadastro */
+
+#div-formulario-cadastro {
+    display: inline-block;
+    width: 58%;
+    height: 100%;
+    background-color: #F59700;
+    margin-top: 0;
+    margin-left: -6px;
+    border-radius: none;
+}
+
+.texto-titulo-cadastro {
+    padding: 0;
+    width: 99%;
+    margin-top: 5px;
+    color: #000000;
+    font-family: "Cherry Bomb One", cursive;
+    font-size: 30px;
+    text-align: center;
+    background-color: #F59700;
+}
+
+/* Estilização das Labels */
+
+label {
+    color: rgb(0, 0, 0);
+    font-family: "Cherry Bomb One", cursive;
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+form {
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    background-color: #F59700;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    width: 100%; 
+    padding: 10px; 
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input [type="email"],
+#e-mail-login,
+#e-mail-cadastro,
+input[type="password"] {
+    width: 100%;
+    height: 25px;
+    padding: 2px;
+    box-sizing: border-box;
+    background-color: #F59700;
+    color: black;
+    font-family: "Cherry Bomb One", cursive;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #F59700;
+    color: #000000;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Cherry Bomb One", cursive;
+    background-color: white; 
+    color: black;
+    cursor: pointer;
+    width: 100px;
+}
+
+input[type="file"] {
+    width: 100%;
+    height: 30px;
+    padding: 2px;
+    box-sizing: border-box;
+    background-color: #F59700;
+    color: rgb(0, 0, 0);
+    font-family: "Cherry Bomb One", cursive;
+    font-size: 11px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+
+#welcome-text {
+    display: none;
+    padding: 0;
+    width: 100%;
+    margin-top: 5px;
+    color: #000000;
+    font-family: "Cherry Bomb One", cursive;
+    font-size: 25px;
+    text-align: bottom;
+    background-color: #F59700;
+}
+
+/* Estilização Texto Quem Somos? */
+
+#texto-quem-somos {
+    width: 90%;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-family: "Cherry Bomb One", cursive;
+    font-size: 20px;
+    background-color: #F59700;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scriptsdivulgue.js" defer></script>
+    <title>AchaPets Divulgue</title>
+</head>
+<body>
+    <!-- O fundo da página é o body -->
+   <!-- Criando uma div principal que conterá todos os outros elementos e terá fundo branco -->
+   <div class="main-content">
+    <!-- Div que contém a imagem de logo -->
+    <div class="logo">
+        <img id="img_logo" src="imgs/Logo.png">
+    </div>
+    <nav>
+        <a href="login.html" id="text-login-home">Login</a>
+    </nav>
+    <!-- Div que contém os botões principais da página inicial -->
+    <div class="buttons">
+            <a href="index.html"><button class="navButton">Home</button></a>            
+            <a href="encontreaqui.html"><button class="navButton">Encontre Aqui</button></a>
+            <a href="quemsomos.html"><button class="navButton">Quem Somos?</button></a>
+    </div>
+     <!-- Linha Divisória -->
+    <div class="line"></div>
+    <!-- Container com Imagens e com formulário para cadastro de usuário e divulgação de PET -->
+    <div class="container-formulario-imgs">
+        <!--Divs para imagens e formulário -->
+        <img src="imgs/divulgacao/cachorro divulgue.png" class="img-divulgacao"/>
+        <div id="div-formulario-cadastro" class="container-formulario-imgs">
+            <h2 class="texto-titulo-cadastro">Cadastro de Pet Desaparecido</h2> 
+            <!-- Formulário para cadastro de usuário -->
+            <form class="form-formulario-cadastro" id="form-divulgacao-pet">
+                <label for="nome">Nome:</label>
+                <br>
+                <input type="text" id="nome" name="nome">
+                <br>
+
+                <label for="raca" style="color: rgb(0, 0, 0);">Raça:</label>
+                <br>
+                <input type="text" id="raca" name="raca">
+                <br>
+
+                <label for="local">Local:</label>
+                <br>
+                <input type="text" id="local" name="local">
+                <br>
+
+                <label for="data">Data:</label>
+                <br>
+                <input type="date" id="data" name="data">
+                <br>
+
+                <label for="foto">Foto:</label>
+                <input type="file" id="foto" name="foto" accept="image/*">
+                <br>
+                <br>
+
+                <input type="submit" value="Enviar">
+
+            </form>
+        </div>
+        <img src="imgs/divulgacao/gato divulgue.png" class="img-divulgacao" id="img-gato-divulgacao"/>
+    </div>
+    
+</div>
+</body>
+</html>
