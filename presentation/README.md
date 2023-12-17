@@ -3,7 +3,7 @@
 Acha Pets
 
 ## Identidade Visual (Marca, Design)
-
+Marca:
 ![Marca do site ](./Logo.jpg)
 
 Cores:
