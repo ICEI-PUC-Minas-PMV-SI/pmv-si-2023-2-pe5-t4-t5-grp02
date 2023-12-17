@@ -30,13 +30,8 @@ Os slides da apresentação foram postados na mesma pasta com o nome "Apresenta�
 
 ## Vídeo de demonstração
 
-O grupo deverá gravar um vídeo de demonstração do site desenvolvido.
 
-> **Algumas informações úteis**
-> - O vídeo deve se limitar a 5 minutos e deve apresentar os objetivos do projeto antes de mostrar o sistema desenvolvido.
-> - O vídeo deve possuir uma narração que explica o que está sendo apresentado.
-> - Foque nas principais tarefas que o seu sistema desenvolveu. Não é necessário apresentar cada detalhe implementado.
-> - Não é necessário que todos os integrantes do grupo participem da gravação.
-> - Não é necessário que a face de algum integrante do grupo apareça na gravação.
-> - Uma ótima ferramenta open-source para gravação de vídeos é o [OBS](https://obsproject.com/pt-br/download)
+
+https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe5-t4-t5-grp02/assets/133276107/3646449a-87d6-421f-9487-dac1a93ccac1
+
 
