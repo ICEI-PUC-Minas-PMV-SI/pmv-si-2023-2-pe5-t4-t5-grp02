@@ -22,13 +22,11 @@ importante lacuna no mercado.
 
 ## Integrantes
 
-* João Pedro Reis Martins
-* Tais Evelin da Silva
-* Alexandre Fonseca Novaes
-* Marcelo de Lima Rodrigues
-* Caio Assunção Ferreira
 * Luigi Rodrigo dos Santos de Moura
-* Lucas Myrrha Gillis
+* João Pedro Reis Martins
+* Marcelo de Lima Rodrigues
+* Tais Evelin da Silva
+
 
 ## Orientador
 
