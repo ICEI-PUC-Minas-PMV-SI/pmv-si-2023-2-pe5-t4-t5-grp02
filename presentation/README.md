@@ -1,16 +1,3 @@
-# Apresentação
-
-Faça uma apresentação de um resumo de todos o processo de desenvolvimento e no final apresente a solução desenvolvida, usando um pequeno vídeo.
-
-Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e descrição do conteúdo neste arquivo Readme.md.
-
-
-* [Pitch inicial](./sample-pitch.pdf) -- arquivo com os slides da apresentação inicial
-* [Apresentação final](./sample-presentation.pdf) -- arquivo com os slides da apresentação final
-* [Vídeo de demonstração](./sample-video.mp4) -- arquivo com a demonstração do funcionamento do sistema
-
-O conjunto de slides deve ser apresentado em um arquivo PowerPoint ou PDF. A apresentação do projeto deve contemplar todos os itens trabalhados nos demais artefatos. Alguns aspectos que devem ser contemplados na apresentação são listados a seguir.
-
 ## Título do Projeto
 
 Acha Pets
@@ -18,6 +5,12 @@ Acha Pets
 ## Identidade Visual (Marca, Design)
 
 ![Marca do site ](./Logo.jpg)
+
+Cores:
+Nós optamos para termos um site com cores que relembrem animais, baseado em algumas empresas que já trabalham com animais e verificamos que geralemnte as cores usadas são Branco, Laranja e Azul, que foram as cores que usamos em nosso site.
+
+Design:
+O Design nós preferimos fazer um Design mais "Infantil", pois observamos que quando estamos falando de animas muitas pessoas consideram os animais como filhos, o que nos influenciou a fazer o design do site com uma pegada mais infantil.
 
 
 
