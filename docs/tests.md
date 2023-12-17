@@ -7,152 +7,123 @@ Neste projeto serão realizados dois tipos de testes:
 
 Se quiser conhecer um pouco mais sobre os tipos de teste de software, leia o documento [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/).
 
-A documentação dos testes é dividida nas seguintes seções:
-
- - [Plano de Testes de Software](#plano-de-testes-de-software)
- - [Registro dos Testes de Software](#registro-dos-testes-de-software)
- - [Avaliação dos Testes de Software](#avaliação-dos-testes-de-software)
- - [Cenários de Teste de Usabilidade](#cenários-de-teste-de-usabilidade)
- - [Registro dos Testes de Usabilidade](#registro-dos-testes-de-usabilidade)
- - [Avaliação dos Testes de Usabilidade](#avaliação-dos-testes-de-usabilidade)
-
-# Teste de Software
-
-Nesta seção o grupo deverá documentar os testes de software que verificam a correta implementação dos requisitos funcionais e não funcionais do software.
-
-## Plano de Testes de Software
-
-Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito  Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
-
-
-**Caso de Teste** | **CT01 - Criar conta parte 1**
- :--------------: | ------------
-**Procedimento**  | 1) Usuário informa nome, sobrenome, email, senha, Estado e Cidade e clica no botão "Continuar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a parte 2 do cadastro.
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
-**Resultado obtido** | Sucesso.
-
-**Caso de Teste** | **CT02 - Criar conta parte 2**
- :--------------: | ------------
-**Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Criação de cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
-**Resultado obtido** | Sucesso.
-
-## Registro dos Testes de Software
-
-Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
-
-|*Caso de Teste*                                 |*TC-01 - Criar uma conta*                                         |
-|---|---|
-|Requisito Associado | RF-004 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
-
-|*Caso de Teste*                                 |*TC-02 - Efetuar Login (usuário autenticado)*                                         |
-|---|---|
-|Requisito Associado | RF-004 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
-
 
 ## Avaliação dos Testes de Software
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Particularmente, gostamos muito do nosso primeiro projeto, tendo como forte o visual mais minimalista e intuitivo.
 
-
-
-## Testes de unidade automatizados (Opcional)
-
-Se o grupo tiver interesse em se aprofundar no desenvolvimento de testes de software, ele podera desenvolver testes automatizados de software que verificam o funcionamento das funções JavaScript desenvolvidas. Para conhecer sobre testes unitários em JavaScript, leia 0 documento  [Ferramentas de Teste para Java Script](https://geekflare.com/javascript-unit-testing/).
-
+De pontos a serem melhorados, a falta de instrução do site, as limitações do localstorage e a grande quantidade de itens para atualizar informações do usuário e dos animais divuglgados.
 
 # Testes de Usabilidade
 
-O objetivo do Plano de Testes de Usabilidade é obter informações quanto à expectativa dos usuários em relação à  funcionalidade da aplicação de forma geral.
+<strong> Usuário 1: </strong> Cadastro e Login do usuário. (práticas de boas convivências). Tempo necessário para tal ação: 30 segundos. Tempo necessário por um especialista: 3 segundos. 
+Comentário: "Aplicação bem intuitiva, não precisou que fizesse login para acessar o conteúdo. Conteúdo muito bom, porém ainda são poucos". Nota: 4/5
 
-Para tanto, elaboramos quatro cenários, cada um baseado na definição apresentada sobre as histórias dos usuários, definido na etapa das especificações do projeto.
+<strong> Usuário 2: </strong> Busca por algum animal perdido. Tempo necessário para tal ação: 37 segundos. Tempo necessário por um especialista: 27.4 segundos. 
+Comentário: "Funciona direitinho, porém a página do fórum contém bastante informação. Não contém opções de like/deslike e denunciar". Nota: 3.8/5
 
-Foram convidadas quatro pessoas que os perfis se encaixassem nas definições das histórias apresentadas na documentação, visando averiguar os seguintes indicadores:
-
-Taxa de sucesso: responde se o usuário conseguiu ou não executar a tarefa proposta;
-
-Satisfação subjetiva: responde como o usuário avalia o sistema com relação à execução da tarefa proposta, conforme a seguinte escala:
-
-1. Péssimo; 
-2. Ruim; 
-3. Regular; 
-4. Bom; 
-5. Ótimo.
-
-Tempo para conclusão da tarefa: em segundos, e em comparação com o tempo utilizado quando um especialista (um desenvolvedor) realiza a mesma tarefa.
-
-Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados, as informações pessoais dos usuários que participaram do teste não foram coletadas, tendo em vista a ausência de Termo de Consentimento Livre e Esclarecido.
-
-
-Apresente os cenários de testes utilizados na realização dos testes de usabilidade da sua aplicação. Escolha cenários de testes que demonstrem as principais histórias de usuário sendo realizadas. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
-
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+<strong> Usuário 3: </strong> Gostaria de anexar um anúncio de animal pertido. Tempo necessário para tal ação: 43 segundos. Tempo necessário por um especialista: 26.3 segundos. 
+Comentário: "Funcionou perfeitamente. Consigo remover e editar. Senti falta de uma explicação de como posicionar os marcadores. Sugiro alguns gifs fazendo tais ações". Nota: 4.3/5
 
 
 ## Cenários de Teste de Usabilidade
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
-
+| 1             | Você é uma pessoa que deseja se cadastrar. Encontre no site a sessão de Login e realize seu cadastro. |
+| 2             | Você é uma pessoa que deseja navegar no site e procurar pela postagem de seu pet perdido. |
+| 3             | Você é uma pessoa que deseja fazer uma postagem de um pet que perdeu. Encontre no site o fórum e faça uma postagem. |
+| 4             | Você é uma pessoa que deseja Achar o seu melhor amigo que se perdeu. |
 
 
 ## Registro de Testes de Usabilidade
 
-Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
+Cenário 1: Você é uma pessoa que deseja se cadastrar. Encontre no site a sessão de Cadastre-se e realize seu cadastro.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
+| 1   | SIM             | 5                    | 33.60 segundos                  |
+| 2 | SIM             | 5                    | 19.31 segundos                  |
+| 3| SIM             | 5                    | 37.57 segundos                  |
+| 4  | SIM             | 5                    | 25.45 segundos                          |
 |  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
+| **Média**     | 100%           | 5                | 28.98 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 26.03 segundos |
 
 
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
+    Comentários dos usuários: 
+    1: Muito claro e intuitivo.
+    2r: Tranquilo e objetivo, ele criaria no banner princpal uma chamada mais fácil
+    3: utilizar o Autocomplete do nome, o cadastro foi tranquilo
+    4: Fácil e prático.
 
 
 
-
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
+Cenário 2: Você é uma pessoa que deseja navegar no site e procurar pela postagem de seu pet perdido.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
+| 1   | SIM             | 4.5                  | 35.32 segundos                          |
+| 2 | SIM             | 5                    | 18.36 segundos                          |
+| 3  | SIM             | 4.5                    | 54.90 segundos                          |
+| 4 | SIM             | 4                    | 51.20 segundos                          |
 |  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 100%           | 4.66               | 39,94 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 27.43 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Comentários dos usuários: 
+    1: Não ficou claro no icone do buraco se era pra apertar em cima ou ao lado.
+    2: No painel do mapa ele achou que o botão de mapear fosse em cima.
+    3: Colocar um tooltip, mensagem que ao passar o mouse em cima mostrar o que o botão faz, sugeriu colcoar no cartão do mapa: "Acompanhe e contribue com o mapa do seu bairro".
+    4: Ficou um pouco confuso mas entendeu o objetivo do mapa.
+
+Cenário 3: Você é uma pessoa que deseja fazer uma postagem de um pet que perdeu. Encontre no site o fórum e faça uma postagem.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1   | SIM             | 5                    | 22.11 segundos                          |
+| 2 | SIM             | 3                    | 32.43 segundos                          |
+| 3  | SIM             | 5                    | 26.71 segundos                          |
+| 4  | SIM             | 4.5                    | 32.23 segundos                          |
+|  |  |  |  |
+| **Média**     | 100%           | 5                | 28,37 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 15.07 segundos |
 
 
+    Comentários dos usuários: 
+    1: Claro e intuitivo
+    2: Colocar texto indicando o que é, recomendou utilizar o sweetalert para qualquer coisa de Popup e alerta https://sweetalert2.github.io/v10.html#examples.
+    3: Foi fácil e intuitivo
+    4: Apesar de ser leigo em tecnologia, achou interessante a abordagem dos problemas através de coments.
+
+
+Cenário 4: Você é uma pessoa que deseja Achar o seu melhor amigo que se perdeu.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1   | SIM             | 5                    | 07.21 segundos                          |
+| 2 | SIM             | 5                    | 31.42 segundos                          |
+| 3  | SIM             | 5                    | 11.73 segundos                          |
+| 4  | SIM             | 4                    | 10.52 segundos                          |
+|  |  |  |  |
+| **Média**     | 100%           | 5                | 15,22 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 3 segundos |
+
+
+    Comentários dos usuários:
+    1: Achou legal e bacana;
+    2: Colocar texto na barra dos Ícones;
+    3: Bem rápido;
+    4: Elogiou a iniciativa das boas práticas.
 
 
 ## Avaliação dos Testes de Usabilidade
 
+A partir dos dados recebidos e analisados, a aplicação atinge um grau de usabilidade satisfatório, especialmente pelo fato de todos os usuários terem conseguido fazer os cenários propostos. É também o caso dos testes de usabilidade subjetivos baseados na LGPD, onde foi possível medir notas entre 3.8 à 4.3 de um total de 5. 
 
-Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
+Paralelamente, foi registrado uma descrepância (em alguns casos mais notáveis do que outros) acerca do tempo gasto entre especialista e "clientes", sendo o maior o cenário 4: "Ache o conteúdo de boas práticas de convivências". 
 
-Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
-
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
-
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
 
 
 
