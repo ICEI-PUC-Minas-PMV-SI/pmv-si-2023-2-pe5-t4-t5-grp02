@@ -17,7 +17,7 @@ Acha Pets
 
 ## Identidade Visual (Marca, Design)
 
-![Marca do site ](Logo.jpg)
+![Marca do site ](./Logo.jpg)
 
 
 
